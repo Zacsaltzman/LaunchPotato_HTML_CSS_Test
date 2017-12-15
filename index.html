@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Dribble</title>
+
+ <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+
+    <script type="text/javascript" language="javascript">
+  	 $(document).ready(function(){
+      $('.carousel').carousel({
+
+      });
+
+    });
+  </script>
+
+  <style>
+	.tabs-content.carousel .carousel-item { height: 600px; }
+
+  	.carousel-item {
+  		min-height: 100%;
+		width:300px !important;}
+	.carousel {
+		height: 500px;
+	}
+
+	.btn {
+		border-radius: 40px;
+		background-color: white;
+		color: black;
+		border-color: blue;
+		border-style: solid;
+		border: 1px solid #C5A38F;
+		text-transform: none;
+		font-size: 11px;
+	}
+	.btn:hover {
+		background-color: #C5A38F;
+	}
+
+	.card_title {
+		margin: 0px;
+		color: #C5A38F;
+		font-size: 25px;
+		margin-bottom: 5px;
+	}
+	
+	.pricing {
+		font-size: 12px;
+		font-weight: bold;
+	}
+
+	.detail {
+		font-size: 12px;
+		padding-bottom: 7px;
+		padding-left: 35px;
+	}
+
+	.material-icons {
+		font-size: 14px;
+		color: #C5A38F;
+		font-weight: bold;
+	}
+
+	.card {
+		color: black;
+	}
+
+	.card-content {
+		margin: 0px;
+		padding: 0px;
+	}
+
+	.grey-icon {
+		color: #CCCBD0;
+	}
+  </style>
+
+</head>
+<body>
+
+	<br>
+	<br>
+
+  <div class="carousel">
+    <a class="carousel-item" href="#two!">
+    	<div class="card z-depth-5">
+            <div class="card-image">
+              <img src="./images/central_graphic.png">
+            </div>
+            <div class="card-content">
+            	<h3 class="card_title center-align">Platinum</h3>
+             	<p class="center-align pricing">$ 9995 / company per year</p>
+             	<br>
+             	<p class="detail"><i class="material-icons">check</i> Ripple Scout</p>
+             	<p class="detail"><i class="material-icons">check</i> 5 team members</p>
+             	<p class="detail"><i class="material-icons">check</i> Unlimited unlocked contacts</p>
+             	<br>
+             	<p class="center-align">
+             	<button class="btn z-depth-0 center-align">Buy Platinum</button>
+            	<br>
+            	</p>
+            </div>
+          </div>
+    </a>
+    <a class="carousel-item" href="#three!">
+    	<div class="card z-depth-5">
+            <div class="card-image">
+              <img src="./images/right_graphic.png">
+            </div>
+            <div class="card-content">
+            	<h3 class="card_title center-align grey-icon">Trial</h3>
+             	<p class="center-align pricing">$ 0 / company per year</p>
+             	<br>
+             	<p class="detail"><i class="material-icons grey-icon">check</i> 1 team members</p>
+             	<p class="detail"><i class="material-icons grey-icon">check</i> 3 unlocked contacts</p>
+             	<br>
+             	<p class="center-align">
+             	<button class="btn z-depth-0 center-align">Start for free</button>
+            	<br>
+            	</p>
+            </div>
+          </div>
+    </a>
+    <a class="carousel-item" href="#one!">
+    	<div class="card z-depth-5">
+            <div class="card-image">
+              <img src="./images/left_graphic.png">
+            </div>
+            <div class="card-content">
+            	<h3 class="card_title center-align grey-icon">Bronze</h3>
+             	<p class="center-align pricing">$ 1995 / company per year</p>
+             	<br>
+             	<p class="detail"><i class="material-icons grey-icon">check</i> 1 team members</p>
+             	<p class="detail"><i class="material-icons grey-icon">check</i> 50 unlocked contacts</p>
+             	<br>
+             	<p class="center-align">
+             	<button class="btn z-depth-0 center-align">Buy Bronze</button>
+            	<br>
+            	</p>
+            </div>
+          </div>
+    </a>
+  </div>
+
+      
+
+	
+</body>
+</html>
